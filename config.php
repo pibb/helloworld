@@ -15,10 +15,10 @@ if ( $_SERVER[ 'REMOTE_ADDR' ] == "127.0.0.1" ) {
 	$_CORE_CONFIG = array(
 		"host" => $_SERVER[ 'SERVER_NAME' ],
 		"database_enabled" => true,
-		"mysql_username" => "root",
-		"mysql_password" => "password",
+		"mysql_username" => "pibbapi",
+		"mysql_password" => "Thereisn5",
 		"mysql_server" => "localhost",
-		"database_name" => "wnittv_main",
+		"database_name" => "pibbapi_site",
 		"core_directory" => __DIR__
 	);
 }
