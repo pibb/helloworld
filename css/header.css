@@ -1,0 +1,65 @@
+h1 {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #321; color: white;
+	width: 800px;
+	margin: 0 auto;
+}
+
+#content {
+	background: #123;
+	padding: 5px;
+	overflow: auto;
+}
+
+.menu a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.menu a:visited {
+	color: #000;
+}
+
+ul.menu {
+	background: #999;
+}
+ul.menu, ul.menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}	
+ul.menu  li {
+	padding-left: 25px;
+	font-size: 16pt;
+}
+ul.menu  li li {
+	font-size: 12pt;
+}
+
+ul.hash {
+	padding: 0; margin: 0; list-style: none; 
+}
+span.hash {
+	border: 1px solid #666; background: #444; display: inline-block; padding: 0; margin: 4px 0; width: 75px; text-align: center; font-size: 16px;
+}
+
+
+.dns-table  td  {
+	vertical-align: top;
+}
+.dns-table td > ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.dns-table li  {
+	border: 1px solid white;
+}
+.dns-table li  li {
+	border: none;
+}
